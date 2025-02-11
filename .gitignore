@@ -1,7 +1,41 @@
-out
+# Build output
 dist
-node_modules
-.vscode-test/
 *.vsix
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
 /.whisper
-.vscode/settings.json
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.vscode-test/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+yarn-error.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
